@@ -1,0 +1,74 @@
+.contain{
+  width: 100%;
+  height: 800px;
+  position: relative;
+}
+.contain video{
+  width: 100%;
+  height: 100%;
+
+}
+.textbox{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background:#000;
+  height: 100%;
+  width: 100%;
+  color:#fff ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  font-weight: 900;
+  mix-blend-mode: multiply;
+  opacity: 0.8;
+}
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.list {
+  width: 49.9999%;
+
+  margin-top: 15px;
+}
+/*日期*/
+.calendar{
+	width:550px;
+	height:550px;
+	background:#fff;
+	box-shadow:0px 1px 1px rgba(0,0,0,0.1);
+}
+.body-list ul{
+	width:100%;
+	font-family:arial;
+	font-weight:bold;
+	font-size:14px;
+}
+.body-list ul li{
+	width:14.28%;
+	height:36px;
+	line-height:36px;
+	list-style-type:none;
+	display:block;
+	box-sizing:border-box;
+	float:left;
+	text-align:center;
+}
+.fontlightgrey{
+	color:#a8a8a8; /*浅灰色*/
+}
+.fontdarkgrey{
+	color:#565656; /*深灰色*/
+}
+.fontgreen{
+	color:#6ac13c; /*绿色*/
+}
+.greenbox{
+	border:1px solid #6ac13c;
+	background:#e9f8df; /*浅绿色背景*/
+}
+
+
