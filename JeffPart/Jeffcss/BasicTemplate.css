@@ -1,0 +1,142 @@
+﻿
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color:#808080;
+	color:#181430;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+a:hover {
+	color: #ffffff;
+	background-color: #fac3c3;
+	font-weight: bold;
+}
+#container {
+	border: 1px solid #fcf5f5;
+	background-color: #fcf5f5;
+	width:949px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#grad1 {
+  height: 190px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, pink,white);
+}
+
+#header {
+	background-image: url('LEEJIACHYI--FDD Assignment/CLCSlogo.png');
+	background-repeat:no-repeat;
+	background-position:left top;
+	height: 120px;	/* 240-90=150 */
+	width: 949px;
+	font-size: 42px;
+	font-weight: bold;
+	font-family: "Sofia", sans-serif;
+	/*font-family: "Trirong", serif;*/
+	/*font-style: oblique;*/
+	padding-top: 70px;
+	padding-left: 20px;
+	text-align: center;
+}
+#nav {
+	padding:8px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-color: #780101;
+	border-bottom-color: #780101;
+	background-color: #780101;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+  	color: white;
+}
+.dropbtn {
+  background-color: #780101;
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fcf5f5;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #f5b3b3;
+}
+
+#content-area {
+	padding: 20px;
+	background-color: #fcf5f5;
+}
+#page-title {
+	color:navy;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: "Lucida Handwriting", Cursive;
+	/*text-decoration: underline;*/
+	text-align: center;
+	position:relative	
+}
+#page-title1{
+	color:#511091;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: "Lucida Handwriting", Cursive;
+	/*text-decoration: underline;*/
+	text-align: center;
+	position:relative	
+}
+#page-content {
+	text-align: justify;
+	padding: 16px;
+}
+.navigation{
+	color: #000000;
+	font-family:"Times New Roman", Times, serif;
+	background-color:#fcf5f5
+	
+}
+#footer {
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #fac3c3;
+	background-image:url('CLCSlogo.png')
+	height: 45px;	/* 48-8=40 */
+	font-size: 12px;
+	text-align: center;
+	padding-top: 8px;
+	background-color:#fac3c3
+}

@@ -1,0 +1,36 @@
+﻿.back{
+	text-align:center;
+
+}
+
+.back a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.previous {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  text-align:center;
+  margin-top:10px;
+  margin-bottom:50px;
+  font-size:20px;
+}
+
+.previous:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+  margin:20px auto;
+}
+
+
+.round {
+  border-radius: 50%;
+}

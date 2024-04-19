@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: white;
+    padding-bottom: 80px;
+}
+.container-2{
+    background: darkgray;
+    padding-bottom: 80px;
+}
+.title{
+	margin:auto;
+    padding-top: 200px;
+	width:fit-content;
+	text-align:center;
+	color:#fff;
+	position:relative;
+}
+.title h1{
+    font-family: 'Righteous', cursive;
+	font-size:125px;
+	font-weight:500;
+	position:relative;
+	z-index:10;
+}
+.intro{
+	height: 500px;
+	width: 100%;
+  	background-size: cover;
+  	text-align: center;
+}
+.main{
+    width: 50%;
+    margin: 60px auto 80px;
+    padding-top: 80px;
+    min-height: 380px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+.service{
+    background: darkgray;
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 20;
+    z-index: 1;
+    transition: transform .8s;
+}
+.service-2{
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 20;
+    z-index: 1;
+    transition: transform .8s;
+}
+.service-logo{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: -90px auto 0;
+    background: white;
+    border: 18px solid darkgray;
+}
+.service-logo-2{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: -90px auto 0;
+    background: white;
+    border: 18px solid darkgray;
+}
+.service-logo img{
+    width: 50px;
+    margin-top: 20px;
+}
+.service-logo-2 img{
+    width: 50px;
+    margin-top: 20px;
+}
+.service h2{
+    font-family: 'Phudu', cursive;
+    font-size: 40px;
+    width: 80%;
+    background: darkgray;
+    margin: 50px auto;
+    position: relative;
+}
+.service-2 h2{
+    font-family: 'Phudu', cursive;
+    font-size: 40px;
+    width: 80%;
+    background: white;
+    margin: 50px auto;
+    position: relative;
+}
+.service p{
+    font-size: large;
+    font-family: 'Signika Negative', sans-serif;
+}
+.service-2 p{
+    font-size: large;
+    font-family: 'Signika Negative', sans-serif;
+}
+.main:hover .service{
+    transform: translateY(-50px);
+}
+.main:hover .service-2{
+    transform: translateY(-50px);
+}

@@ -1,0 +1,71 @@
+﻿html{
+	scroll-behavior: smooth;
+}
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.festivalbanner{
+	height:700px;
+	margin:auto;
+  	background-size:cover;
+
+}
+
+
+
+#festivalname{
+	margin-top:3%;
+	width:100%;
+	height:auto;
+	text-align:center;
+	font-size:40px;
+	font-weight:bold;
+
+	
+}
+
+
+
+
+.actual-content{
+	position:relative;
+	padding-top:20px;
+	padding-bottom:40px;
+}
+
+
+.festivaldescription{
+	position:relative;
+	margin-top:80px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:20px;
+	height:auto;
+	width:949px;
+  	border-radius: 8px;
+  	
+  	text-align:justify;
+
+	
+}
+
+.festivaldescript-subheader{
+	margin-bottom:10px;
+	text-align:left;
+	font-size:25px;
+	font-weight:bold;
+	
+}
+
+description-content{
+	height:auto;
+	width:auto;
+  	border-radius: 8px;
+
+  	text-align:justify;
+
+}

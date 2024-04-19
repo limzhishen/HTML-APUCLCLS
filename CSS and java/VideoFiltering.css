@@ -1,0 +1,104 @@
+﻿/*Video Filtering*/
+/* The "show" class is added to the filtered elements */
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row  .column {
+  padding: 5px;
+
+}
+
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content2 {
+  background-color: white;
+  padding: 0px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #fac3c3;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #fcf5f5;
+}
+
+.btn.active {
+  background-color: #fac3c3;
+  color: black;
+}
+#myBtnContainer{
+	margin-top:auto;
+	display:block;
+
+}
+/*Photo Filtering*/
+.item{
+	position:relative;
+}
+.item:hover{
+	-webkit-box-shadow: -4px 14px 16px 5px rgba(0,0,0,0.75);
+	-moz-box-shadow: -4px 14px 16px 5px rgba(0,0,0,0.75);
+	box-shadow: -4px 14px 16px 5px rgba(0,0,0,0.75);
+	transition:0.5s;
+}
+.item span{
+	position:absolute;
+	top:40%;
+	left:45%;
+	font-size:50px;
+	color:black;
+	cursor:pointer;
+	opacity:0;
+}
+.item:hover span{
+	opacity:1;
+	transition:0.5s;
+}
+.item:before{
+	contact:"";
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background-color:#ede2e1;
+	opacity:0;
+	position:absolute;
+}
+.item:hover:before{
+	opacity:1;
+	transition:0.3s;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 49.999%;
+  display: none; /* Hide all elements by default */
+  
+}
+
+
+
+
+

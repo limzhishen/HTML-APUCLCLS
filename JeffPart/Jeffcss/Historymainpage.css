@@ -1,0 +1,82 @@
+﻿html{
+	scroll-behavior: smooth;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#festival-content{
+	margin: 70px 50px;
+	text-align: center;
+	position:relative;
+}
+
+#festival{
+	padding-top:20px;
+	display: inline-block;
+	
+}
+
+.festival-col {
+	float:left;
+    position: relative;
+    width: auto;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.festival-col img {
+    opacity: 1;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius:10px;
+}
+
+.layer {
+  /*last parameter of rgba is opacity*/
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.3s;
+  border-radius:10px;
+  
+}
+
+.layer:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.layer p {
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+  font-size: 30px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  transition: 0.3s;
+}
+
+/*hide the text*/
+.layer:hover p {
+  bottom: 43%;
+  opacity: 1;
+}
+
+#artwork-content{
+	margin: 70px 50px;
+	text-align: center;
+	position:relative;
+	
+}
+
